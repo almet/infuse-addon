@@ -1,0 +1,14 @@
+@import url('../uniform/uni-form.css');
+@import url('../uniform/default.uni-form.css');
+
+body{
+    background-color: #fff;
+    font-size: 0.8em;
+    font-family: verdana;
+}
+fieldset h3 {
+    background: none repeat scroll 0 0 #EFEFEF;
+    color: #343434;
+    line-height: 1;
+    padding: 14px 28px;
+}
