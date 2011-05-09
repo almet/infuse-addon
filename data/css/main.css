@@ -6,9 +6,18 @@ body{
     font-size: 0.8em;
     font-family: verdana;
 }
+
 fieldset h3 {
     background: none repeat scroll 0 0 #EFEFEF;
     color: #343434;
     line-height: 1;
     padding: 14px 28px;
+}
+
+#activate {
+    text-align: right;
+}
+#active-label {
+    float: left;
+    margin-right: 5px;
 }
