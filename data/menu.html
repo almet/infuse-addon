@@ -3,10 +3,10 @@
     <link href="css/main.css", media="all", rel="stylesheet" />
 </head>
 <body>
-    <form action="#" class="uniForm">
-      <div class="ctrlHolder" id="activate">
+    <form id="credentials-form" class="uniForm">
+        <div id="activate" class="ctrlHolder">
           <label id="active-label" for="active">Is the plugin active? </label>
-          <input id="active" name="active" type="checkbox" class="textInput medium"/>
+          <input id="active" name="active" type="checkbox" checked="yes" class="textInput medium"/>
       </div>
 
       <fieldset>
@@ -19,7 +19,7 @@
         </div>
         <div class="ctrlHolder">
           <label for=""><em>*</em> Your password</label>
-          <input name="name" id="name" data-default-value="Placeholder text" size="35" maxlength="50" type="password" class="textInput medium required"/>
+          <input name="password" id="password" data-default-value="Placeholder text" size="35" maxlength="50" type="password" class="textInput medium required"/>
           <p class="formHint">Required</p>
         </div>
        <div class="buttonHolder">
