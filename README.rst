@@ -1,12 +1,12 @@
-FFSugest
-########
+Infuse
+######
 
-Suggest is the implementation of a context-aware web recommendation system. It
+Infuse is the implementation of a context-aware web recommendation system. It
 is decoupled into two parts: a firefox plugin which retrieve the browsing
 data and a server side script which expose an API and provide tools to extract
 data, analyse them, cluster them and provide recommendations.
 
-FFSuggest is the browsing part of the project.
+This is the browsing part of the project.
 
 Record the browsing actions
 ===========================
