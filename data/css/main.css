@@ -21,3 +21,10 @@ fieldset h3 {
     float: left;
     margin-right: 5px;
 }
+
+.error{
+    background-color: #FFB2B2;
+}
+.info{
+    background-color: #90FF80;
+}

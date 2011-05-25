@@ -15,5 +15,14 @@ $("#credentials-form").submit(function(event){
         username: this.name.value, 
         password: this.password.value
     });
+
     return false;
+});
+
+self.port.on("credentials-checked", function(result){
+    if (result.json == null || result.json['authorized'] != true){
+        $("#info").html("<p class='error'>The credentials you entered are not matching to an user on the server. Please check for any typo and be sure you are registered</p>"); 
+    } else {
+        $("#info").html("<p class='info'>You are now connected and sending data to the server. Thanks !</p>");
+    }
 });

@@ -2,8 +2,8 @@
     "name": "infuse", 
     "license": "BSD", 
     "author": "Alexis Metaireau", 
-    "version": "0.1", 
-    "fullName": "Infuse, help me to gather data for my Msc thesis! (A context-aware recommendation system for the web)", 
+    "version": "0.2", 
+    "fullName": "Infuse", 
     "id": "jid0-u5BTqQw6spj3F0AG8magYdvnn3Y", 
-    "description": "Record your browsing information and provides suggestions on what you would like to see in the future"
+    "description": "Record your browsing information and provides suggestions on what you would like to see in the future."
 }
