@@ -19,8 +19,8 @@ $("#credentials-form").submit(function(event){
     return false;
 });
 
-self.port.on("credentials-checked", function(result){
-    if (result.json == null || result.json['authorized'] != true){
+self.port.on("credentials-checked", function(is_valid){
+    if (is_valid != true){
         $("#info").html("<p class='error'>The credentials you entered are not matching to an user on the server. Please check for any typo and be sure you are registered</p>"); 
     } else {
         $("#info").html("<p class='info'>You are now connected and sending data to the server. Thanks !</p>");
